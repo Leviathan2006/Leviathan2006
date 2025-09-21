@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+Hello peeps! This is Shreeyam, a student at IIT Roorkee, currently studying Mathematics personally.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Lets learn some fun stuff!
