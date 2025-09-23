@@ -6,7 +6,7 @@ Lets say we have an object and we want to analyse it. What we simply do is study
 
 Why do we perform Real Analysis as opposed to Rational Analysis? 
 
-Simply stated, rational numbers are too thin. Taking a limit leads to convergence to irrational numbers(each of these terms will be defined but this would make sense to the reader intuitively). 
+Simply stated, rational numbers are too thin. Taking a limit leads to convergence to an irrational number(each of these terms will be defined but this would make sense to the reader intuitively). 
 
 **Euclid’s Proof by Contradiction that √2 is Irrational:**
  
@@ -35,11 +35,12 @@ So our goal is to simply fill this gaps and everything will be okay. But one may
 Here is the philosophy regarding this. An initial assumption is always needed. Through Peano axioms, we assume that Natural Numbers exist. From that point on, we just create objects out of our convenience and make sure that they follow consistent properties. (Recall that integers are just a pair of natural numbers - 
 [3-5:=-2]). There is no proof and none is required. 
 
-So now there are two ways to construct the set **R** from **Q**:  
+Lets construct the set **R** from **Q**:  
 
-**A) Cauchy Completion:**
+**Cauchy Completion:**
 
-Before we go on to do this, we need 4 very simple definitions.
+Before we go on to do this, we need 3 very simple definitions.
+
 **1. Definition: Infinite Rational Sequence**
 
 Let m be an integer. An infinite rational sequence is a sequence such that
@@ -49,19 +50,25 @@ Let m be an integer. An infinite rational sequence is a sequence such that
 
 **2. Definition: Cauchy Sequence of Rational Numbers**
 
-The following two statements are equivalent:
+ ![formula](https://quicklatex.com/cache3/12/ql_02d40111a53c40cef2d540e04ff18812_l3.png) 
 
-a. ![formula](https://quicklatex.com/cache3/12/ql_02d40111a53c40cef2d540e04ff18812_l3.png) 
+ iff
 
-b. ![formula](https://quicklatex.com/cache3/3d/ql_4f384c8cfac5cbcc4035ab021693953d_l3.png) 
+ ![formula](https://quicklatex.com/cache3/3d/ql_4f384c8cfac5cbcc4035ab021693953d_l3.png) 
+
+**3. Definition: Equivalent Cauchy Sequences**
+
+![formula](https://quicklatex.com/cache3/cc/ql_8314924417b514affac441ba9ad51bcc_l3.png)
+
+iff
+
+![formula](https://quicklatex.com/cache3/78/ql_50ded0440505ac230d52cb42c7d77778_l3.png)
+
+**Definition: REAL NUMBERS!**
+
+This would seem to be a bit of an anti-climatic moment but what we do next is simply say that these equivalent sequences are an object themseleves and we can assign a Real number to these equivalent sequences, all these equivalent sequences have been assigned equal and unique real numbers. somewhat like class objects..
 
 
-
-
-
-
-
-b) Dedekind Cuts
 
 
 
