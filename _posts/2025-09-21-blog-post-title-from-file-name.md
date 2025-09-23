@@ -11,28 +11,22 @@ Simply stated, rational numbers are too thin. Taking a limit leads to convergenc
 **Theorem.** √2 is not a rational number.
 
 **Proof (by contradiction).**  
-Assume √2 is rational. Then there exist integers \(p\) and \(q\) with \(q \neq 0\) such that
+Assume √2 is rational. Then there exist integers p and q with q ≠ 0 such that
 
-\[
-\sqrt{2} = \frac{p}{q}.
-\]
+    √2 = p/q.
 
-We may assume that \(\frac{p}{q}\) is in lowest terms (i.e., \(\gcd(p,q) = 1\)).
+We may assume that p/q is in lowest terms (i.e., gcd(p, q) = 1).
 
 Squaring both sides:
 
-\[
-2 = \frac{p^2}{q^2} \quad \Longrightarrow \quad p^2 = 2q^2.
-\]
+    2 = p² / q²   ⇒   p² = 2q².
 
-Thus \(p^2\) is even, which implies \(p\) is even. Let \(p = 2k\). Substituting back:
+Thus p² is even, which implies p is even. Let p = 2k. Substituting back:
 
-\[
-(2k)^2 = 2q^2 \quad \Longrightarrow \quad 4k^2 = 2q^2 \quad \Longrightarrow \quad q^2 = 2k^2.
-\]
+    (2k)² = 2q²   ⇒   4k² = 2q²   ⇒   q² = 2k².
 
-Hence \(q^2\) is even, so \(q\) is also even.
+Hence q² is even, so q is also even.
 
-Therefore, both \(p\) and \(q\) are divisible by 2, contradicting the assumption that \(\frac{p}{q}\) was in lowest terms.
+Therefore, both p and q are divisible by 2, contradicting the assumption that p/q was in lowest terms.
 
-This contradiction shows that √2 is irrational. 
+This contradiction shows that √2 is irrational. ∎
